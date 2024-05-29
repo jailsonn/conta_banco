@@ -7,7 +7,8 @@ public class ContaTerminal {
     // String nomeCliente = "MARIO ANDRADE";
     // Double saldo = 237.48;
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
+
         // TODO: Conhecer e importar a classe Scanner
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -29,10 +30,10 @@ public class ContaTerminal {
         double saldo = scanner.nextDouble();
 
         // Obter pela scanner os valores digitados no terminal
-        System.out.println("Olá, " + nomeCliente + " ,obrigado por criar uma conta em nosso banco.");
+        System.out.println("Olá, " + nomeCliente + ", obrigado por criar uma conta em nosso banco.");
         System.out.println("Sua agência é: " + agencia);
         System.out.println("Conta: " + contaCliente);
-        System.out.println("Seu saldo: " + saldo + " ,Já está disponível para saque.");
+        System.out.println("Seu saldo: " + saldo + ", Já está disponível para saque.");
 
         // Exibir a mensagem conta criada
 
